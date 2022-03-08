@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald:wght@300&display=swap');
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.line-menu{
+    color: #000;
+    border:1px solid;
+    margin-top: -1rem;
+}
+/* logo github*/
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.profile img:hover{
+    transform: scale(1.25);
+    transition: all 0.5s ease;
+}
+
+
+/* menu */
+nav ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Noto sans';
+    
+}
+nav ul li{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    border-bottom:2px solid rgba(203, 226, 247, 0.541);
+}
+nav ul a{
+    color: #000;
+    text-decoration: none;
+    
+
+}
+nav ul li:hover{
+    border-bottom-color:#050505 ;
+}
+/* body */
+
+.page-intro{
+    margin: 4%;
+    max-width: 80%;
+}
+.page-intro h1{
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-family: 'Oswald';
+    font-size: 4vw;
+    letter-spacing: 1px;
+    
+}
+.page-intro h2{
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+}
+ 
+.page-intro p{
+    
+    line-height: 29px;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #5e5c5c;
+    letter-spacing: 0.5px;
+}
+
+.parag{
+    display: flex;
+    margin-top: -5rem;
+}
+
+.button{
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+
+/*Premier bouton */
+
+.pre-b{
+    background: #000;
+    width: 10rem;
+    color: #fff;
+    border-radius: 6px;
+    height: 28px;
+    font-family: 'noto sans';
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000;
+    margin-left: 2rem;
+    font-weight: bold;
+    
+}
+/*deuxieme bouton */
+
+.deu-b{
+    background: #000;
+    width: 10rem;
+    color: #fff;
+    border-radius: 6px;
+    height: 28px;
+    font-family: 'Noto sans';
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #000; 
+}
+.pre-b:hover{
+    background-color: rgba(27, 26, 26, 0.849);
+}
+.deu-b:hover{
+    background-color: rgba(27, 26, 26, 0.849);
+}
+
+/* photo de profil */
+
+.page-intro img{
+    width: 250px;
+    border-radius: 120px;
+    margin-left: 80%;
+    margin-top: -10%;
+}
+
+/* Section Formation */
+
+.page-formation{
+    background-color: #000;
+    height: 45rem;
+    color: #fff;
+    position: relative;
+    
+}
+.page-formation h1{
+    margin:4%;
+    color: #fff;
+    font-family: 'Noto sans';
+    width: 143px;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.line-formation{
+    border:1px solid;
+    margin-top: -3rem;
+}
+.ligne{
+    position: absolute;
+    height: 520px;
+    width: 3px;
+    margin: 230px ;
+    background: #fff;
+    margin-top:8rem;
+}
+.text-cv{
+    margin-top: 4rem;
+}
+
+.page-formation h3{
+    margin-left: 14rem;
+    padding: 0.5rem;
+    font-size: 24px;
+    margin-top: 2rem;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.page-formation p{
+    margin-left: 17rem;
+    padding: 0.5rem;
+    line-height: 22px;
+    font-family: 'noto sans';
+    letter-spacing: 0.5px;
+}
+.page-formation img{
+    width: 320px;
+    position: absolute;
+    left: 55rem;
+    bottom: 6rem;
+    border-radius: 3px;
+
+    }
+.page-formation a{
+    position: absolute;
+    left:62rem;
+    bottom: 3rem;
+    color: rgba(199, 231, 111, 0.76);
+}
+/* Section Compétences */
+.competences{
+    height: 35rem;
+}
+.competences h1{
+    margin:4%;
+    font-family: 'Noto sans';
+    width: 143px;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.line-competence{
+    border:1px solid;
+    margin-top: -3rem;
+    color: #000;
+}
+.ligne-c{
+    position: absolute;
+    height: 300px;
+    width: 5px;
+    margin: 740px ;
+    background: rgb(12, 12, 12);
+    margin-top:7rem;
+}
+.competences{
+    position: relative;
+}
+.name{
+    position: absolute;
+    top: 4rem;
+}
+.name1{
+    position: absolute;
+    top: -5rem;
+}
+.html{
+    position: absolute;
+    top:8rem;
+    left:7rem;
+}
+.html span{
+    font-size: 19px;
+    margin-left: 22%;
+    font-family: 'noto sans';
+    font-weight: bold;   
+}
+.html img{
+    width: 90px;
+}
+.css{
+    position: absolute;
+    top:17rem;
+    left:14rem;
+}
+.css span{
+    margin-left: 30%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.css img{
+    width: 90px;
+}
+.js{
+    position: absolute;
+    top:8rem;
+    left:21rem;
+}
+.js span{
+    margin-left: 43%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.js img{
+    width: 90px;
+}
+.react{
+    position: absolute;
+    top:17rem;
+    left: 28rem;
+}
+.react span{
+    margin-left: 7%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.react img{
+    width: 70px;
+}
+.wordpress{
+    position: absolute;
+    top:8rem;
+    left: 35rem;
+}
+.wordpress span{
+    margin-left:-6%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.wordpress img{
+    width: 90px;
+}
+
+
+.c-sharp{
+    position: absolute;
+    top:17rem;
+    left: 52rem;
+}
+.c-sharp span{
+    margin-left: 35%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.c-sharp img{
+    width: 90px;
+}
+.sql{
+    position: absolute;
+    top:27rem;
+    left: 62rem;
+}
+.sql span{
+    margin-left:13%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.sql img{
+    width: 100px;
+}
+.c{
+    position: absolute;
+    top:17rem;
+    left: 72rem;
+}
+.c span{
+    margin-left: 40%;
+    font-size: 19px;
+    font-family: 'noto sans';
+    font-weight: bold;
+}
+.c img{
+    width: 90px;
+}
+/* Section Contact*/
+
+.contact{
+    background: #fff;
+    height: 730px;
+    margin-top: -4rem;
+}
+.contact h1{
+    margin:4%;
+    color: #000;
+    font-family: 'Noto sans';
+    width: 143px;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.line-contact{
+    border:1px solid;
+    margin-top: -3rem;
+    color: #000;
+}
+.container{
+    position: relative;
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 35%;
+    max-width: 500%;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 1rem;
+    box-shadow: 0px 0px  25px #eaf5c27c;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 30rem;
+    height: 530px;
+    
+}
+.form-group{
+    width: 90%;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-left: 1.5rem;
+    
+}
+.form-group input, .form-group textarea{
+    width: 100%;
+    padding:4px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+textarea{
+    resize: vertical;
+}
+.container button[type="submit"]{
+    position: absolute;
+    right: 12rem;
+    bottom: 1rem;
+    width: 21%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 8px;
+    font-family: 'noto sans';
+    text-align: center;
+    cursor: pointer;
+    height: 36px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #000;
+    background-color: #fff;
+    transition: .3s ease background-color;
+
+}
+.container button[type="submit"]:hover{
+    background-color: rgb(69, 128, 240);
+    opacity: 0.8;
+}
+/* Section Realisation */
+
+.realisation{
+    background: #000;
+    height: 1400px;
+}
+.realisation h1{
+    margin:4%;
+    color: #fff;
+    font-family: 'Noto sans';
+    width: 143px;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.line-realisation{
+    border:1px solid;
+    margin-top: -3rem;
+    color: #fff;
+}
+
+
+/* Section service 
+.Service{
+   height: 700px;
+}
+.Service h1{
+    margin:4%;
+    color: #000;
+    font-family: 'Noto sans';
+    width: 143px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.line-service{
+    border:1px solid;
+    margin-top: -3rem;
+    color: #000;
+}
+*/
+/* Footer */
+
+.foot{
+    background: #000;
+    height: 30vh;
+}
+.reseaux{
+    text-align: center;
+    margin-top:2rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+   
+}
+.reseaux img{
+   width: 40px;
+   margin-left: 2rem;
+   cursor: pointer;
+    
+}
+.reseaux img:hover{
+    opacity: 0.9;
+    transform: scale(1.20);
+    transition: all 0.5s ease;  
+ }
+.liste{
+     margin-top: 1rem;
+     padding: 0;
+     list-style: none;
+     font-size: 18px;
+     line-height: 1.6;
+     margin-bottom: 0;
+     text-align: center;
+ }
+.liste  a{
+   color: inherit;
+   text-decoration: none;
+   opacity: 0.90;
+   color: #fff;
+}
+.liste ul li{
+   display: inline-block;
+   padding: 0 15px;
+}
+ .liste ul a:hover{
+   opacity: 0.6;
+   color: rgb(69, 128, 240);
+}
+footer p{
+      margin-top: 30px;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'noto sans';
+      color: #fff;
+      letter-spacing: 0.1px;
+}
+
+ .realisa{
+     padding-top: 5rem;
+ }
+.grid-container {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .grid img {
+    width: 350px;
+    height: 230px;
+    background-color: #222;
+    transition: all 0.3s ease-in;
+    border-radius: 5px;
+  }
+  
+  .grid:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:700px) {
+   
+  
+    .page-intro img{
+        width: 140px;
+    }
+    .image-pro{
+       margin-right: 11rem;
+       margin-top: 1.5rem;
+        
+    }
+    .line-menu{
+      display: none;
+    }
+    .page-intro h1{
+        margin-top: 5rem;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        font-size: 6vw;
+        text-align: center;
+        margin-left:1.5rem;
+        
+    }
+    .page-intro h2{
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        font-size: 5vw;
+        text-align: center;
+        margin-left: 1.5rem;
+    }
+    .page-intro p{
+        margin-top: 1rem;
+        text-align: center;
+        line-height: 25px;
+        font-size: 17px;
+        margin-bottom: 40px;
+        color: #5e5c5c;
+        margin-left: 2.7rem;
+    
+    }
+    nav ul li{
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 4px;
+        border-bottom:none;
+   
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+        margin: 15px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        font-family: 'Noto sans';
+        margin-top: 1.5rem;
+        margin-left: -1.8rem;
+        
+    }
+    nav ul li a{
+        color: #fff;
+        border-radius: 3px;
+        background: #000;
+       
+
+    }
+    .servicee{
+        display: none;
+    }
+    .contactt{
+        display: none;
+    }
+    .pre-b{
+        background: #000;
+        width: 6rem;
+        color: #fff;
+        border-radius: 6px;
+        height: 24px;
+        font-family: 'Noto sans';
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 2px 2px 2px #000;
+        margin-left: 2rem;
+        font-weight: bold;
+        
+    }
+    .deu-b{
+        background: #000;
+        width: 6rem;
+        margin-bottom: 1rem;
+        color: #fff;
+        border-radius: 6px;
+        height: 24px;
+        margin-left: 1.3rem;
+        font-family: 'Noto sans';
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 2px 2px 2px #000; 
+    }
+    /* section formation */
+    .page-formation h1{
+        font-size: 16px;
+        
+    }
+    .page-formation{
+        height: 820px;
+    }
+    .line-formation{
+        border:1px solid;
+        margin-top: 1px;
+    }
+    .ligne{
+        position: absolute;
+        height: 605px;
+        width: 3px;
+        margin: 19px ;
+        background: #fff;
+        margin-top:7rem;
+    }
+    .page-formation h3{
+        margin-left: 1rem;
+        padding: 0.5rem;
+        font-size: 16px;
+        font-family: 'Oswald';
+
+    }
+    .page-formation p{
+        margin-left: 3.5rem;
+        padding: 0.5rem;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .page-formation img{
+       display: none;
+    }
+    .page-formation a{
+        position: absolute;
+        left:15rem;
+        bottom:1rem;
+        color: rgba(199, 231, 111, 0.76);
+        font-size: 15px;
+    }
+    /*Section competences*/
+    .competences h1{
+        font-family: 'Noto sans';
+        width: 143px;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .html{
+        position: absolute;
+        top:2rem;
+        left:1rem;
+    }
+    .html span{
+        font-size: 13px;
+        margin-left: 20%;
+        font-family: 'noto sans';
+        font-weight: bold;   
+    }
+    .html img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    .css{
+        position: absolute;
+        top:8rem;
+        left:5rem;
+    }
+    .css span{
+        margin-left: 28%;
+        font-size: 14px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .css img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    .js{
+        position: absolute;
+        top:2rem;
+        left:9rem;
+    }
+    .js span{
+        margin-left: 40%;
+        font-size: 14px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .js img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    .react{
+        position: absolute;
+        top: 8rem;
+        left: 15rem;
+    }
+    .react span{
+        margin-left: 10%;
+        font-size: 13px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .react img{
+        width: 60px;
+        margin-top: 0rem;
+    }
+    .wordpress{
+        position: absolute;
+        top:2rem;
+        left: 19rem;
+    }
+    .wordpress span{
+        margin-left:-8%;
+        font-size: 13px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .wordpress img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+   
+    .line-competence{
+        border:1px solid;
+        margin-top: 1rem;
+        color: rgb(8, 8, 8);
+    }
+    .c-sharp{
+        position: absolute;
+        top:25rem;
+        left: 6rem;
+    }
+    .c-sharp span{
+        margin-left: 35%;
+        font-size: 15px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .c-sharp img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    .sql{
+        position: absolute;
+        top:31rem;
+        left: 10.5rem;
+    }
+    .sql span{
+        margin-left:9%;
+        font-size: 14px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .sql img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    .c{
+        position: absolute;
+        top:25rem;
+        left: 15rem;
+    }
+    .c span{
+        margin-left: 40%;
+        font-size: 15px;
+        font-family: 'noto sans';
+        font-weight: bold;
+    }
+    .c img{
+        width: 60px;
+        margin-top: -0.1rem;
+    }
+    /*Section realisation */
+
+    .realisation h1{
+        margin:4%;
+        color: #fff;
+        font-family: 'Noto sans';
+        font-weight: bold;
+        width: 143px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px; 
+    }
+    .realisation{
+        background: #000;
+        height: 1700px;
+    }
+  
+    img{
+       width: 200px;
+        border-radius: 15px;
+        margin-top: 2rem;
+        
+    }
+    .carousel-item h5{
+        font-size: 12px;
+    }
+  
+    .active img{
+        width: 240px;
+    }
+    .realisa{
+        margin-left: 5rem;
+    }
+    .grid-container {
+        max-width: 1300px;
+        width: 70%;
+        height: auto;
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+      }
+    
+      .grid img {
+        width: 280px;
+        height: 190px;
+        background-color: #222;
+        transition: all;
+      }
+   
+   
+    /* Section Service*/
+    .Service{
+        display: none;
+    }
+  
+    /* Section contact*/
+
+    .contact h1{
+        margin:4%;
+        color: rgb(2, 2, 2);
+        font-family: 'Noto sans';
+        font-weight: bold;
+        width: 143px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px; 
+    }
+    .line-contact{
+        border:1px solid;
+        margin-top: 0.5rem;
+        color: #000;
+    }
+    .container{
+        color: #fff;
+        font-family: 'Oswald';
+        letter-spacing: 1px;
+        width: 70%;
+        max-width: 500%;
+        padding: 20px;
+        padding-right: 2.5rem;
+        box-shadow: 0px 0px  25px #eaf5c27c;
+        background-color: rgb(12, 11, 11);
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 3.5rem;
+        height: 520px;
+        
+        
+    }
+    .contact{
+        background: #fff;
+        height: 650px;
+    }
+    .container button[type="submit"]{
+        position: absolute;
+        right: 6rem;
+        width: 30%;
+        border: none;
+        outline: none;
+        font-size: 17px;
+        border-radius: 8px;
+        font-family: 'noto sans';
+        text-align: center;
+        height: 25px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        color: #000;
+        background-color: #fff;
+    }
+    /* Footer */
+    .reseaux{
+        text-align: center;
+        margin-top:2rem;
+        
+       
+    }
+    .reseaux img{
+       width: 30px;
+       margin-left: 1rem; 
+       
+    }
+  
+    .liste  a{
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+     footer p{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'noto sans';
+        letter-spacing: 0.1px;
+        margin-bottom: 30px;
+    }
+    .foot{
+       
+        height: 80vw;
+    }
+ 
+
+
+        
+
+
+}
